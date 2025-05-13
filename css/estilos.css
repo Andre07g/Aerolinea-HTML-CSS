@@ -14,7 +14,6 @@
     }
 }
 
-
 /*Version Movil*/
 
 .mensaje-advertencia {
@@ -167,6 +166,9 @@ button[type="submit"]:hover {
     flex-direction: column;
     background: linear-gradient(to right, #ce4da5, #cf4da5, #5693ce);
     align-items: center;
+    animation-name: brillo;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
 }
 
 .header-banner img {
@@ -208,6 +210,41 @@ button[type="submit"]:hover {
 
 }
 
+@keyframes brillo {
+    0% {
+        background: linear-gradient(to right, #ce4da5, #cf4da5, #5693ce);
+    }
+
+    14% {
+        background: linear-gradient(to right, #ffffff, #ce4da5, #ce4da5, #ce4da5, #ce4da5, #5693ce, #5693ce);
+    }
+
+    21% {
+        background: linear-gradient(to right, #ce4da5, #ffffff, #cf4da5, #cf4da5, #cf4da5, #5693ce, #5693ce);
+    }
+
+    35% {
+        background: linear-gradient(to right, #ce4da5, #ce4da5, #ffffff, #cf4da5, #cf4da5, #5693ce, #5693ce);
+    }
+
+    52% {
+        background: linear-gradient(to right, #ce4da5, #ce4da5, #cf4da5, #ffffff, #cf4da5, #5693ce, #5693ce);
+    }
+
+    65%{
+        background: linear-gradient(to right, #ce4da5, #ce4da5, #cf4da5, #cf4da5, #ffffff, #5693ce, #5693ce);
+    }
+
+    73% {
+        background: linear-gradient(to right, #ce4da5, #ce4da5, #cf4da5, #cf4da5, #cf4da5, #ffffff, #5693ce);
+    }
+
+    100% {
+        background: linear-gradient(to right, #ce4da5, #ce4da5, #cf4da5, #cf4da5, #cf4da5, #5693ce, #ffffff);
+    }
+
+}
+
 .tarjetas a {
     text-decoration: none;
 }
@@ -240,8 +277,8 @@ button[type="submit"]:hover {
 }
 
 .tarjeta-imagenes {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     padding: 2vh;
 }
 
@@ -397,21 +434,33 @@ button[type="submit"]:hover {
     justify-content: start;
 }
 
-.tarjeta-vuelo-1{display: flex;
+.tarjeta-vuelo-1 {
+    display: flex;
     width: 100%;
     border: 1px solid rgb(201, 201, 201);
     padding: 2vh;
     box-sizing: border-box;
     padding-left: 0;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(119, 119, 119);}
+    box-shadow: 5px 5px 5px rgb(119, 119, 119);
+}
 
-.hora-horas-3>div{width: 100% !important;
+.hora-horas-3>div {
+    width: 100% !important;
     display: flex !important;
-    justify-content: space-between;font-size: 8px !important;}
+    justify-content: space-between;
+    font-size: 8px !important;
+}
 
-.divdetarjeta1 p{font-size: 0.9rem;}
+.divdetarjeta1 p {
+    font-size: 0.9rem;
+}
 
-.textofuerte{font-weight: 600;font-size: 1.2rem !important;}
+.textofuerte {
+    font-weight: 600;
+    font-size: 1.2rem !important;
+}
 
-.abuton{width: 100%;}
+.abuton {
+    width: 100%;
+}
