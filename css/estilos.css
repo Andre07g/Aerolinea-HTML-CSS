@@ -134,7 +134,7 @@ button[type="submit"] {
 #h2-form {
     font-size: 22px;
     font-weight: 100;
-    margin-top:2vh;
+    margin-top: 2vh;
     margin-bottom: 2vh;
 }
 
@@ -198,21 +198,39 @@ button[type="submit"] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
-.tarjetas a{text-decoration: none;}
+
+.tarjetas a {
+    text-decoration: none;
+}
 
 .tarjetas a>div {
     border: 1px solid rgb(179, 179, 179);
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgb(160, 160, 160);
-    padding: 1vh;display: flex;
-    
+    padding: 1vh;
+    display: flex;
+
 }
 
-.tarjetas div img{width: 15%;}
-.tarjetas div div{display: flex;flex-direction: row;justify-content: space-between;width: 75%;padding-left: 2vh;padding-right: 2vh;align-items: center;}
-.tarjetas div div p{margin: 0px;}
+.tarjetas div img {
+    width: 15%;
+}
+
+.tarjetas div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    align-items: center;
+}
+
+.tarjetas div div p {
+    margin: 0px;
+}
 
 .tarjeta-imagenes {
     width: 40px;
@@ -220,13 +238,91 @@ button[type="submit"] {
     padding: 2vh;
 }
 
-.inicio-sesion{text-align: center;margin-bottom: 1vh;margin-top: 3vh;}
+.inicio-sesion {
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
+}
 
-.cabecera{display: flex;justify-content: center;align-items: center;align-self: start;padding: 2vh;padding-bottom: 0;padding-left: 0;}
-.cabecera img{width: 10vh;}
-.cabecera div h1{margin-top: 0;margin-left: 2vh;}
-.cabecera div a{margin-left: 3vh;}
+.cabecera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: start;
+    padding: 2vh;
+    padding-bottom: 0;
+    padding-left: 0;
+}
 
-#busqueda-vuelos{margin-top: 0;margin-bottom: 0.5vh;font-size: 26px;}
-#linea-horizontal-busqueda{margin-bottom: 0;}
-#checkbox-soloida{margin: 0;width: 90%;}
+.cabecera img {
+    width: 10vh;
+}
+
+.cabecera div h1 {
+    margin-top: 0;
+    margin-left: 2vh;
+}
+
+.cabecera div a {
+    margin-left: 3vh;
+}
+
+#busqueda-vuelos {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+#linea-horizontal-busqueda {
+    margin-bottom: 0;
+}
+
+#checkbox-soloida {
+    margin: 0;
+    width: 90%;
+}
+
+.tarjeta-vuelo {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 2vh;
+    box-sizing: border-box;
+    padding-left: 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(119, 119, 119);
+}
+
+.hora-horas {
+    display: flex;
+    flex-direction: column !important;
+    align-self: start;
+    
+}
+
+.hora-horas p{font-size: 2.2vh;text-align: start;width: 100%;text-align: start;}
+
+.code-precio {
+    flex-direction: column !important;
+     align-self: start;
+}
+.code-precio p{font-size: 2.6vh;width: 100%;text-align: end;}
+
+#tarjeta-vuelos-id {
+    gap: 3vh;
+}
+
+#tarjeta-vuelos-id img {
+    width: 70px;padding-right: 0px;
+}
+
+.ciudad-h{text-align: start;width: 90%;}
+.ciudad-h p{margin-top: 0px;color: rgb(125, 126, 125);font-size: 2.5vh;}
+
+#main-registro-buscar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 110vh;
+    border-bottom: 0px;
+}
