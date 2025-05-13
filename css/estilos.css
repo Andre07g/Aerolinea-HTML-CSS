@@ -14,6 +14,7 @@
     }
 }
 
+
 /*Version Movil*/
 
 .mensaje-advertencia {
@@ -289,34 +290,52 @@ button[type="submit"] {
     box-sizing: border-box;
     padding-left: 0;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px rgb(119, 119, 119);
+    box-shadow: 5px 5px 5px rgb(119, 119, 119);
 }
 
 .hora-horas {
     display: flex;
     flex-direction: column !important;
     align-self: start;
-    
+
 }
 
-.hora-horas p{font-size: 2.2vh;text-align: start;width: 100%;text-align: start;}
+.hora-horas p {
+    font-size: 1rem;
+    text-align: start;
+    width: 100%;
+}
 
 .code-precio {
     flex-direction: column !important;
-     align-self: start;
+    align-self: start;
 }
-.code-precio p{font-size: 2.6vh;width: 100%;text-align: end;}
+
+.code-precio p {
+    font-size: 1rem;
+    width: 100%;
+    text-align: end;
+}
 
 #tarjeta-vuelos-id {
     gap: 3vh;
 }
 
 #tarjeta-vuelos-id img {
-    width: 70px;padding-right: 0px;
+    width: 70px;
+    padding-right: 0px;
 }
 
-.ciudad-h{text-align: start;width: 90%;}
-.ciudad-h p{margin-top: 0px;color: rgb(125, 126, 125);font-size: 2.5vh;}
+.ciudad-h {
+    text-align: start;
+    width: 90%;
+}
+
+.ciudad-h p {
+    margin-top: 0px;
+    color: rgb(125, 126, 125);
+    font-size: 2.5vh;
+}
 
 #main-registro-buscar {
     background-color: rgb(255, 255, 255);
@@ -326,3 +345,36 @@ button[type="submit"] {
     height: 110vh;
     border-bottom: 0px;
 }
+
+.formulario-vuelos {
+    border: 1px solid rgb(167, 167, 167);
+    padding: 5%;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+
+.hora-horas-2 {
+    font-size: 1rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: start;
+}
+
+.hora-horas-2 p {
+    text-align: start;
+    width: 100%;
+    font-size: 15px;
+}
+
+#divdetarjeta{
+    width: 100%;
+    display: flex !important; 
+justify-content: space-between;}
+
+#vuelo-propio{margin-bottom: 2vh;color: gray;}
