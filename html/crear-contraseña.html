@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +16,12 @@
     </header>
     <main id="main-registro">
         <div class="formulario-registro">
-            <form class="formulario-registro">
-            <h1>Recuperar Contraseña</h1>
-            <hr class="linea-horizontal">
-            <input type="text" placeholder="E-mail" required class="campo-dato">
-            <p>Si el email se encuentra registrado se enviará un link para continuar con la recuperación de su contraseña.</p>
-        <button type="submit" id="boton-enviar-recuperar">Enviar</button>    
+            <form class="formulario-registro" method="get" action="/html/pagina-principal.html">
+            <h1>Crear contraseña</h1>
+            <hr class="linea-horizontal" id="linea-horizontal-crear">
+            <input type="text" placeholder="Contraseña" required class="campo-dato">
+            <input type="text" placeholder="Repetir contraseña" required class="campo-dato">
+            <button type="submit" id="boton-enviar-recuperar">Guardar</button>    
         </form>
         </div>
     </main>

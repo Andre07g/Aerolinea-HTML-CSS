@@ -21,7 +21,7 @@
                 <img src="/imagenes/user.png">
                 <div>
                     <h1>Jhon Doe</h1>
-                    <a>Cerrar sesion</a>
+                    <a href="/html/login.html">Cerrar sesion</a>
                 </div>
 
             </div>
@@ -37,11 +37,11 @@
                     </div>
                 
                 </div>
-                <form class="formulario-vuelos">
+                <form class="formulario-vuelos" method="get" action="/html/pagina-principal.html">
                     <h4 id="vuelo-propio">Contacto en caso de emergencia</h4>
                     <input type="text" placeholder="Nombre" required class="campo-dato">
                     <input type="tel" placeholder="No. Telefono Celular" required class="campo-dato">
-                    <button type="submit">Guardar</button>
+                    <button type="submit" id="boton-guardar-check">Guardar</button>
                 </form>
             </div>
     </main>
