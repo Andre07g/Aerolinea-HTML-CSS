@@ -1,18 +1,30 @@
 /* Version de desktop*/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:835px) {
     .mensaje-advertencia {
         display: flex !important;
         text-align: center;
         height: 100vh;
         justify-content: center;
         align-items: center;
+        background: linear-gradient(to right, #ff29bb, #9b4dcf, #5693ce);
+        color: white;
+        width: 100%;
+        padding: 10vh;
+        box-sizing: border-box;
+    }
+
+    .mensaje-advertencia img {
+        width: 40%;
     }
 
     main {
         display: none !important;
     }
+
+    .header-banner{display: none !important;}
 }
+
 
 /*Version Movil*/
 
@@ -164,7 +176,7 @@ button[type="submit"]:hover {
 #body-navegacion {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, #ce4da5, #cf4da5, #5693ce);
+    background: linear-gradient(to right, #ce4da5, #cf4da5, #5693ce) !important;
     align-items: center;
     animation-name: brillo;
     animation-duration: 0.3s;
@@ -231,7 +243,7 @@ button[type="submit"]:hover {
         background: linear-gradient(to right, #ce4da5, #ce4da5, #cf4da5, #ffffff, #cf4da5, #5693ce, #5693ce);
     }
 
-    65%{
+    65% {
         background: linear-gradient(to right, #ce4da5, #ce4da5, #cf4da5, #cf4da5, #ffffff, #5693ce, #5693ce);
     }
 
